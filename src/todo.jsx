@@ -17,7 +17,6 @@ function Todo(){
         </div>
         </>
     )
-
 }
 
 export default Todo;
