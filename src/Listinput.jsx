@@ -12,6 +12,8 @@ const Listinput = ({ addTodo }) => {
         }
     };
 
+    
+
     return (
         <>
         <div className="show">
@@ -20,6 +22,7 @@ const Listinput = ({ addTodo }) => {
         type="text"
         placeholder="title"
         value={title}
+        style = {{backgroundColor:'yellow'}}
         onChange={(e) => setTitle(e.target.value)}
         />
 
@@ -28,9 +31,14 @@ const Listinput = ({ addTodo }) => {
         type="text"
         placeholder="description"
         value={description}
+        style = {{backgroundColor:'lightyellow'}}
         onChange={(e) => setDescription(e.target.value)}
         />
-        <button onClick={handleAddTodo}>Add Todo</button>
+        <button 
+        style = {{backgroundImage:"url('background-image.jpg')", color : 'white'}}
+        
+        onClick={handleAddTodo}>
+            Add Todo</button>
         </div>
         </>
     );

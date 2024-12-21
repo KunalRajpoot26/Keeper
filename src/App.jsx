@@ -5,10 +5,6 @@ import Listshow from './Listshow';
 
 function App() {
 
-  const backgroundStyle = {
-    backgroundImage : "url('background-image.jpg')",
-    height: "500px",
-  };
 
   const[todos, setTodos] = useState([]);
 
@@ -18,10 +14,10 @@ function App() {
 
   return (
     <>      
-      <div style={backgroundStyle}> 
+      {/* <div style={backgroundStyle}>  */}
       <Listinput addTodo={addTodo}/>
       <Listshow todos={todos}/>
-      </div>
+      {/* </div> */}
     </>
   );
 }

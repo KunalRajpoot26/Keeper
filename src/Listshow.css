@@ -1,3 +1,4 @@
+
 .show {
     display:flex;
     flex-direction: column;
@@ -5,10 +6,9 @@
     margin-top: 100px;
 }
 
-
 .title-main {
     display:flex;
-    
+    margin-top: 100px;
     width: 200px;
 }
 .description-main {
@@ -25,3 +25,4 @@ button{
     display:flex;
     justify-content: center;
 }
+
